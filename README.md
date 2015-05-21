@@ -1,2 +1,2 @@
 # site-beta
-Website
+[Website](https://joeazar.github.io/site-beta/)

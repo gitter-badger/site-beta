@@ -4,8 +4,9 @@
 }
 
 .flip-container{
-	width: 320px;
 	height: 480px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /* flip speed goes here */

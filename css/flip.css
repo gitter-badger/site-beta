@@ -36,6 +36,18 @@
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+
+    background-color: #F7F7F7;
+    padding: 25px 30px 35px;
+    margin: 0 auto 25px;
+    margin-top: 20px;
+     /* shadows and rounded borders */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .flip-container.flip .flipper {

@@ -9,6 +9,20 @@
     }
 }
 
+.omb_login{
+    background-color: #F7F7F7;
+    padding: 25px 30px 35px;
+    margin: 0 auto 25px;
+    margin-top: 20px;
+     /* shadows and rounded borders */
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -moz-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
 .omb_login .omb_authTitle {
     text-align: center;
     line-height: 300%;
@@ -59,7 +73,7 @@
     left: 50%;
     top: -0.6em;
     margin-left: -1.5em;
-    background-color: white;
+    background-color: #F7F7F7;
     width: 3em;
     text-align: center;
 }

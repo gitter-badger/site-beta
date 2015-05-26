@@ -10,6 +10,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/login-style.css" rel="stylesheet">
      <link href="css/flip.css" rel="stylesheet">
+     <script>
+            		var el = document.getElementById('sign-up');
+			el.onclick = flip;
+
+
+			function flip() {
+			  document.querySelector("#card").classList.toggle("flip");
+			  return false;
+			}
+      </script>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -82,16 +92,6 @@
         <div class="flip-container" id="card">
 	<div class="flipper">
             <div class="omb_login front">
-            	<script>
-            		var el = document.getElementById('sign-up');
-			el.onclick = flip;
-
-
-			function flip() {
-			  document.querySelector("#card").classList.toggle("flip")
-			  return false;
-			}
-            	</script>
                 <h3 class="omb_authTitle">Login or <a href="no-javascript.html" id="sign-up">Sign up</a></h3>
                 <div class="row omb_row-sm-offset-3 omb_socialButtons">
                         <a href="#" class="btn btn-lg btn-block omb_btn-facebook">

@@ -3,7 +3,7 @@
 	perspective: 1000;
 }
 
-.flip-container, .front, .back {
+.flip-container{
 	width: 320px;
 	height: 480px;
 }

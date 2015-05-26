@@ -1,6 +1,6 @@
 /* footer section */
 footer {
-  padding: 80px 0;
+  padding: 20px 0;
   text-align: center;
 }
 footer a > img {
@@ -47,19 +47,19 @@ footer .rights a:hover {
 footer {
   background: #222222;
   /* Old browsers */
-  background: -moz-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
+  background: -moz-linear-gradient(-45deg, #1E5A74 0%, #336799 100%);
   /* FF3.6+ */
   /*background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #1E5A74), color-stop(100%, #E86AA9));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
+  background: -webkit-linear-gradient(-45deg, #1E5A74 0%, #336799 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
+  background: -o-linear-gradient(-45deg, #1E5A74 0%, #336799 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
+  background: -ms-linear-gradient(-45deg, #1E5A74 0%, #336799 100%);
   /* IE10+ */
   /*background: linear-gradient(-45deg, #1E5A74 0%, #E86AA9 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E5A74, endColorstr=#E86AA9, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E5A74, endColorstr=#336799, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {

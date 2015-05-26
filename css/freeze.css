@@ -317,10 +317,10 @@ section#reviews .review-filtering .slick-dots li button {
 section#reviews .review-filtering .slick-dots li button:before {
   display: none;
 }
-section#screens .slider {
+section#screenshots .slider {
   margin: 50px 0;
 }
-section#screens .slider div img {
+section#screenshots .slider div img {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -329,35 +329,35 @@ section#screens .slider div img {
   padding: 10px;
   display: inline;
 }
-section#screens .slider div h4 {
+section#screenshots .slider div h4 {
   text-align: center;
   margin-top: 40px;
   font-size: 16px;
 }
-section#screens .slider .slick-dots li button {
+section#screenshots .slider .slick-dots li button {
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
   -ms-border-radius: 5em;
   -o-border-radius: 5em;
   border-radius: 5em;
 }
-section#screens .slick-prev,
-section#screens .slick-next {
+section#screenshots .slick-prev,
+section#screenshots .slick-next {
   width: 50px;
   height: 50px;
   top: 44%;
 }
-section#screens .slick-slide {
+section#screenshots .slick-slide {
   text-align: center;
 }
-section#screens .slick-prev:before {
+section#screenshots .slick-prev:before {
   content: "\f104";
 }
-section#screens .slick-next:before {
+section#screenshots .slick-next:before {
   content: "\f105";
 }
-section#screens .slick-prev:before,
-section#screens .slick-next:before {
+section#screenshots .slick-prev:before,
+section#screenshots .slick-next:before {
   font-size: 34px;
   -webkit-border-radius: 5em;
   -moz-border-radius: 5em;
@@ -372,10 +372,10 @@ section#screens .slick-next:before {
   height: 50px;
   text-align: center;
 }
-section#screens .filter {
+section#screenshots .filter {
   text-align: center;
 }
-section#screens .filter a {
+section#screenshots .filter a {
   display: inline-block;
   padding: 7px 20px;
   text-decoration: none;
@@ -902,31 +902,34 @@ section#reviews .review-filtering .slick-dots li button {
 section#reviews .review-filtering .slick-dots li.slick-active button {
   background: #66cdcc;
 }
-section#screens header h1:after {
+section#screenshots {
+  background: #f6f6f6;
+}
+section#screenshots header h1:after {
   background: #66cdcc;
 }
-section#screens .slider div img {
+section#screenshots .slider div img {
   border: 2px solid #e5e5e5;
 }
-section#screens .slider div h4 {
+section#screenshots .slider div h4 {
   color: #999999;
 }
-section#screens .slider .slick-dots li button {
+section#screenshots .slider .slick-dots li button {
   background: #999999;
 }
-section#screens .slider .slick-dots li.slick-active button {
+section#screenshots .slider .slick-dots li.slick-active button {
   background: #66cdcc;
 }
-section#screens .filter a {
+section#screenshots .filter a {
   border: 2px solid #cccccc;
   color: #999999;
 }
-section#screens .filter a:hover {
+section#screenshots .filter a:hover {
   color: #ffffff;
   background: #66cdcc;
   border-color: #66cdcc;
 }
-section#screens .filter a.active {
+section#screenshots .filter a.active {
   color: #ffffff;
   background: #66cdcc;
   border-color: #66cdcc;
@@ -985,21 +988,21 @@ section#support .media:hover h3 {
 }
 /* footer section */
 footer {
-  background: #66cdcc;
+  background: #1E5A74;
   /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -moz-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #66cdcc), color-stop(100%, #336799));
+  /*background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #1E5A74), color-stop(100%, #E86AA9));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -webkit-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -o-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
   /* Opera 11.10+ */
-  background: -ms-linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  background: -ms-linear-gradient(-90deg, #1E5A74 0%, #E86AA9 100%);
   /* IE10+ */
-  background: linear-gradient(-45deg, #66cdcc 0%, #336799 100%);
+  /*background: linear-gradient(-45deg, #1E5A74 0%, #E86AA9 100%);
   /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66cdcc, endColorstr=#336799, GradientType=1);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E5A74, endColorstr=#E86AA9, GradientType=1);
   /* IE6-9 fallback on horizontal gradient */
 }
 footer .social a {

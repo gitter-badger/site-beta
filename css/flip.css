@@ -1,6 +1,7 @@
 /* entire container, keeps perspective */
 .flip-container {
 	-webkit-perspective: 1000;
+	perspective: 1000;
 }
 
 .flip-container{
@@ -12,7 +13,9 @@
 /* flip speed goes here */
 .flipper {
 	-webkit-transition: 0.6s;
+	transition: 0.6s;
 	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
 
 	position: relative;
 }
@@ -20,6 +23,7 @@
 /* hide back of pane during swap */
 .front, .back {
 	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 
 	position: absolute;
 	top: 0;
@@ -31,11 +35,13 @@
 	z-index: 2;
 	/* for firefox 31 */
 	-webkit-transform: rotateY(0deg);
+	transform: rotateY(0deg);
 }
 
 /* back, initially hidden pane */
 .back {
     -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
 
     background-color: #F7F7F7;
     padding: 25px 30px 35px;
@@ -52,4 +58,5 @@
 
 .flip-container.flip .flipper {
 	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }

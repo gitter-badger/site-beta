@@ -1,6 +1,6 @@
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 1000;
+	-webkit-perspective: 1000;
 }
 
 .flip-container{
@@ -11,8 +11,8 @@
 
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
 
 	position: relative;
 }

@@ -14,6 +14,6 @@ body {
 
 .textshadow
 {
-  text-shadow: 2px 2px 0px #3C3B3B; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000
   color: white;
 }

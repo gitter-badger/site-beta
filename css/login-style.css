@@ -5,16 +5,16 @@
 */
 
 @media (min-width: 768px) {
-    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
-    }
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {}
 }
 
-.omb_login{
+.omb_login {
     background-color: #F7F7F7;
     padding: 10px 30px 35px;
     margin: 0 auto 25px;
     margin-top: 20px;
-     /* shadows and rounded borders */
+    /* shadows and rounded borders */
+
     -moz-border-radius: 6px;
     -webkit-border-radius: 6px;
     border-radius: 6px;

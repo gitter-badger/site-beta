@@ -1,36 +1,28 @@
-body 
-{
-  padding-top: 50px;
+body {
+    padding-top: 50px;
 }
 
-#navlinks
-{
-  padding-right: 15px;
+#navlinks {
+    padding-right: 15px;
 }
 
-#login-header
-{
-  margin-top: 0px;
+#login-header {
+    margin-top: 0px;
 }
 
-#reg-legend
-{
-  padding-bottom: 10px;
+#reg-legend {
+    padding-bottom: 10px;
 }
 
-.padding-left-5
-{
-  padding-left: 5px; 
+.padding-left-5 {
+    padding-left: 5px;
 }
 
-.padding-right-5
-{
-  padding-right: 5px;
+.padding-right-5 {
+    padding-right: 5px;
 }
 
-
-.text-anywhere
-{
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  color: white;
+.text-anywhere {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: #fff;
 }

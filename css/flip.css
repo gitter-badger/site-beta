@@ -35,7 +35,7 @@
 
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
 
     background-color: #F7F7F7;
     padding: 25px 30px 35px;
